@@ -12,12 +12,21 @@ This is a simple CRUD app that uses Rust as a backend and Diesel for ORM
 ## CRUD Operations 
 
 1. Create a post
+   
 ``` cargo run --bin write_post ```
+
 2. Update a post (Publishing)
+   
 ```cargo run --bin publish_post <post_id>```
+
 3. Get a single post
+   
 ```cargo run --bin get_post <post_id>```
+
 4. Get all the posts
+   
 ```cargo run --bin show_posts```
+
 5. Delete a post
+    
 ```cargo run --bin delete_post <post_title>```
