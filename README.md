@@ -1,6 +1,6 @@
 # CRUD App using Diesel
 
-This is a simple CRUD app that uses Rust as a backend and Diesel for ORM
+This is a simple CRUD app that uses Rust and Diesel to create a simple backend in PostgresSQL
 
 ## How to use 
 1. Clone the repo
