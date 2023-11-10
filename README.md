@@ -5,14 +5,14 @@ This is a simple CRUD app that uses Rust as a backend and Diesel for ORM
 ## How to use 
 1. Clone the repo
 2. Make a .env file and add the following code to it
-```DATABASE_URL=postgres://<username>:<password>@localhost/<db_name>```
+``` DATABASE_URL=postgres://<username>:<password>@localhost/<db_name >```
 3. Build the file
 ```cargo build```
 
 ## CRUD Operations 
 
 1. Create a post
-```cargo run --bin write_post```
+``` cargo run --bin write_post ```
 2. Update a post (Publishing)
 ```cargo run --bin publish_post <post_id>```
 3. Get a single post
