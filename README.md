@@ -1,6 +1,6 @@
 # CRUD App using Diesel
 
-This is a simple CRUD app that uses Rust and Diesel to create a simple backend in PostgresSQL
+This is a simple CRUD app that uses Rust and Diesel to create a simple backend in PostgreSQL
 
 ## How to use 
 1. Clone the repo
@@ -8,7 +8,7 @@ This is a simple CRUD app that uses Rust and Diesel to create a simple backend i
 ```
 DATABASE_URL=postgres://<username>:<password>@localhost/<db_name >
 ```
-4. Build the file
+3. Build the file
 ```
 cargo build
 ```
